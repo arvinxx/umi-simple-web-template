@@ -2,8 +2,8 @@
   "name": "umi-simple-web-template",
   "private": true,
   "scripts": {
-    "start": "umi dev",
-    "build": "umi build",
+    "start": "vercel dev",
+    "build": "vercel build",
     "test": "umi test",
     "lint": "eslint {src,mock,tests}/**/*.{ts,tsx} --fix",
     "precommit": "lint-staged",
@@ -42,8 +42,5 @@
       "eslint --fix",
       "git add"
     ]
-  },
-  "engines": {
-    "node": ">=8.0.0"
   }
 }

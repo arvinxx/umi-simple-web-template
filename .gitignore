@@ -18,3 +18,5 @@
 # umi
 .umi
 .umi-production
+
+.vercel
