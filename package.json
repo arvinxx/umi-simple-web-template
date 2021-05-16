@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "start": "vercel dev",
-    "build": "vercel build",
+    "build": "umi build",
     "test": "umi test",
     "lint": "eslint {src,mock,tests}/**/*.{ts,tsx} --fix",
     "precommit": "lint-staged",
