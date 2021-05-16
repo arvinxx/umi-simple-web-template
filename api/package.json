@@ -1,0 +1,8 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@vercel/node": "^1.10.0"
+  }
+}
