@@ -43,5 +43,6 @@
       "eslint --fix",
       "git add"
     ]
-  }
+  },
+  "version": "1.0.0"
 }
