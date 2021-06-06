@@ -16,7 +16,15 @@ jobs:
         with:
           node-version: '14'
 
-      - uses: c-hive/gha-yarn-cache@v1
+      - name: Cache multiple paths
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.npm
+            ~/cache
+            !~/cache/exclude
+            **/node_modules
+          key: yarn-${{ runner.os }}-${{ hashFiles('package.json') }}
 
       - name: install
         run: yarn
