@@ -1,6 +1,6 @@
 # Umi Web Template
 
-基于 Umi 的 web Demo 开发脚手架
+基于 Umi 4 的 web demo 开发模板，适用于非常简单地页面应用。如果需要使用一个工程级别的项目，可以考虑使用 [umi-web-template](https://github.com/arvinxx/umi-web-template)。
 
 [![Release CI][release-ci]][deploy-ci-url][![Gitmoji][gitmoji]][gitmoji-url] [![semantic-release][semantic-release]][semantic-release-repo] ![][license-url]
 
