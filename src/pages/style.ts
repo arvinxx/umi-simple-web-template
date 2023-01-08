@@ -1,7 +1,7 @@
 import { createStyles, css } from 'antd-style';
 import img from '@/assets/yay.jpg';
 
-export default createStyles({
+export default createStyles(({ token }) => ({
   normal: css`
     font-family: Georgia, sans-serif;
     margin-top: 4em;
@@ -20,7 +20,9 @@ export default createStyles({
     list-style: none;
     line-height: 1.5em;
   `,
-  listCode: css`
-    background: #f7f7f7;
+
+  code: css`
+    padding: 8px;
+    background: ${token.colorBgLayout};
   `,
-});
+}));
