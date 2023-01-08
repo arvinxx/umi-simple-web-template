@@ -1,11 +1,14 @@
 import React from 'react';
-import styles from './index.css';
+import { Outlet } from '@umijs/max';
+import useStyles from './style';
 
-const BasicLayout: React.FC = props => {
+const BasicLayout: React.FC = () => {
+  const { styles } = useStyles();
   return (
     <div className={styles.normal}>
       <h1 className={styles.title}>Yay! Welcome to umi!</h1>
-      {props.children}
+
+      <Outlet />
     </div>
   );
 };

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App 默认 1`] = `
+.emotion-0 {
+  font-family: Georgia,sans-serif;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.emotion-1 {
+  height: 512px;
+  background: url() no-repeat center 0;
+  -webkit-background-size: 512px 512px;
+  background-size: 512px 512px;
+}
+
+.emotion-2 {
+  font-size: 1.2em;
+  margin: 1.8em 0 0;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    />
+    <ul
+      class="emotion-2"
+    >
+      <li>
+        To get started, edit 
+        <code>
+          src/pages/index.js
+        </code>
+         and save to reload.
+      </li>
+      <li>
+        <a
+          href="https://umijs.org/guide/getting-started.html"
+        >
+          Getting Started
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

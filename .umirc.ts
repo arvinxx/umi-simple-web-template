@@ -1,13 +1,11 @@
-import { defineConfig } from 'umi';
+import { defineConfig } from '@umijs/max';
 
 // ref: https://umijs.org/config/
 export default defineConfig({
-  antd: {},
   routes: [
     {
       path: '/',
-      component: '../layouts/index',
-      routes: [{ path: '/', component: '../pages/index' }],
+      component: '@/pages/index',
     },
   ],
 });

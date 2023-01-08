@@ -17,6 +17,7 @@
 
 # umi
 .umi
+.umi-test
 .umi-production
 
 .vercel
