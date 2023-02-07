@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "max build",
+    "build:analyze": "ANALYZE=1 max build",
     "dev": "max dev",
     "lint": "max lint",
     "prepare": "husky install",
@@ -47,5 +48,6 @@
     "ts-node": "^10",
     "typescript": "^4",
     "vercel": "^28"
-  }
+  },
+  "repository": "https://github.com/arvinxx/umi-simple-web-template.git"
 }

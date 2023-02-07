@@ -1,11 +1,15 @@
-import { createStyles, css } from 'antd-style';
 import img from '@/assets/yay.jpg';
+import { createStyles } from 'antd-style';
 
-export default createStyles(({ token }) => ({
+export default createStyles(({ token, css, responsive }) => ({
   normal: css`
     font-family: Georgia, sans-serif;
     margin-top: 4em;
     text-align: center;
+
+    ${responsive.mobile} {
+      margin-top: 10px;
+    }
   `,
 
   welcome: css`
