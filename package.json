@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "antd": "^5",
-    "antd-style": "alpha",
+    "antd-style": "beta",
     "react": "^18",
     "react-dom": "^18"
   },

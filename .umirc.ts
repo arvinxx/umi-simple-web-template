@@ -8,4 +8,5 @@ export default defineConfig({
       component: '@/pages/index',
     },
   ],
+  ssr: {},
 });

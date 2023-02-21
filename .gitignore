@@ -21,3 +21,4 @@ node_modules
 .umi-production
 
 .vercel
+server
