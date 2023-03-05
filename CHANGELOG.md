@@ -1,5 +1,28 @@
 # Changelog
 
+# [1.2.0](https://github.com/arvinxx/umi-simple-web-template/compare/v1.1.0...v1.2.0) (2023-03-05)
+
+
+### ✅ 测试
+
+* 更新快照 ([b72edde](https://github.com/arvinxx/umi-simple-web-template/commit/b72edde))
+
+
+### ✨ 新特性
+
+* 尝试添加 ssr 配置 ([dd20a50](https://github.com/arvinxx/umi-simple-web-template/commit/dd20a50))
+
+
+### 🎫 杂项
+
+* 优化代码 ([558d3f8](https://github.com/arvinxx/umi-simple-web-template/commit/558d3f8))
+* 清理样式 ([2a24276](https://github.com/arvinxx/umi-simple-web-template/commit/2a24276))
+
+
+### 💄 样式
+
+* 测试样式 ([1282b5e](https://github.com/arvinxx/umi-simple-web-template/commit/1282b5e))
+
 # [1.1.0](https://github.com/arvinxx/umi-simple-web-template/compare/v1.0.0...v1.1.0) (2023-01-08)
 
 
