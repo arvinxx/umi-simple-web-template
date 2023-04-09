@@ -2,6 +2,7 @@
   "name": "umi-simple-web-template",
   "version": "1.2.0",
   "private": true,
+  "repository": "https://github.com/arvinxx/umi-simple-web-template.git",
   "scripts": {
     "build": "max build",
     "build:analyze": "ANALYZE=1 max build",
@@ -10,9 +11,9 @@
     "prepare": "husky install",
     "release": "semantic-release",
     "start": "vercel dev",
-    "test": "jest --passWithNoTests",
-    "test:coverage": "jest --coverage --passWithNoTests",
-    "test:update": "jest -u"
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:update": "vitest -u"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -27,27 +28,23 @@
   },
   "devDependencies": {
     "@emotion/jest": "^11",
-    "@testing-library/jest-dom": "^5",
     "@testing-library/react": "^13",
-    "@types/jest": "^29",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/testing-library__jest-dom": "^5",
     "@umijs/max": "^4",
+    "@vitest/coverage-c8": "latest",
     "commitlint": "^17",
     "commitlint-config-gitmoji": "^2",
     "cross-env": "^7",
     "eslint": "^8",
     "husky": "^8",
-    "jest": "^29",
-    "jest-environment-jsdom": "^29",
     "lint-staged": "^13",
     "prettier": "^2",
     "semantic-release": "^20",
     "semantic-release-config-gitmoji": "^1",
-    "ts-node": "^10",
-    "typescript": "^4",
-    "vercel": "^28"
-  },
-  "repository": "https://github.com/arvinxx/umi-simple-web-template.git"
+    "typescript": "^5",
+    "vercel": "^28",
+    "vitest": "latest"
+  }
 }
