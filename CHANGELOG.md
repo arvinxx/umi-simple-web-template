@@ -1,5 +1,29 @@
 # Changelog
 
+# [1.3.0](https://github.com/arvinxx/umi-simple-web-template/compare/v1.2.0...v1.3.0) (2023-04-09)
+
+
+### ✨ 新特性
+
+* 升级 antd-style 依赖 ([75a0e38](https://github.com/arvinxx/umi-simple-web-template/commit/75a0e38))
+* 升级 ci 中 pnpm 依赖版本 ([1ed8978](https://github.com/arvinxx/umi-simple-web-template/commit/1ed8978))
+* 迁移 测试框架到 vitest 以提升测试速度 ([0a6ee6f](https://github.com/arvinxx/umi-simple-web-template/commit/0a6ee6f))
+
+
+### 🎫 杂项
+
+* 增加 api 的 tsconfig 配置 ([08fc472](https://github.com/arvinxx/umi-simple-web-template/commit/08fc472))
+
+
+### 🐛 修复
+
+* 补充 jsdom 依赖 ([6642cd5](https://github.com/arvinxx/umi-simple-web-template/commit/6642cd5))
+
+
+### 💄 样式
+
+* 补充响应式用法的 demo ([f81b69c](https://github.com/arvinxx/umi-simple-web-template/commit/f81b69c))
+
 # [1.2.0](https://github.com/arvinxx/umi-simple-web-template/compare/v1.1.0...v1.2.0) (2023-03-05)
 
 
